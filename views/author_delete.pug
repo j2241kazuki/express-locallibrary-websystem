@@ -7,7 +7,7 @@ block content
 
   if author_books.length
 
-    p #[strong Delete the following books before attempting to delete this author.]
+    p #[strong この著者を削除する前に、必ず以下の本を削除してください。]
     div(style='margin-left:20px;margin-top:20px')
       h4 Books
       dl
@@ -17,7 +17,7 @@ block content
           dd #{book.summary}
 
   else
-    p Do you really want to delete this Author?
+    p この著者を本当に削除してもよろしいですか？
 
     form(method='POST')
       div.form-group
