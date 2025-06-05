@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(135deg, #f5ecd7 0%, #e9dbc7 100%);
+  /* 本の紙のようなやわらかい色合い */
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
 .sidebar-nav {
   margin-top: 20px;
   padding: 0;
